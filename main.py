@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Load datasets
+abnb = pd.read_csv("data/ABNB.csv")
+tsa = pd.read_excel("data/tsa_passenger_volumes.xlsx")
+cpi = pd.read_excel("data/fred_cpi_lodging_away_from_home.xlsx")
+
+# Print to check
+print("ABNB:")
+print(abnb.head())
+
+print("\nTSA:")
+print(tsa.head())
+
+print("\nCPI:")
+print(cpi.head())
